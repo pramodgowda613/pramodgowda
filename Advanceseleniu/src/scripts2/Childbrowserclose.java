@@ -51,7 +51,7 @@ for(WebElement m:arr)
 //}
 
 }
-Set<String> u = driver.getWindowHandles();t
+Set<String> u = driver.getWindowHandles();
 for(String kl:u)
 
 	driver.switchTo().window(kl);
