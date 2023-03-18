@@ -12,7 +12,7 @@ public static JavascriptExecutor scroll()
 	
 	JavascriptExecutor exe=(JavascriptExecutor)driver;
 	return exe;
-	
+
 }
 public static void schll(WebElement ele)
 {

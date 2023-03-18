@@ -26,6 +26,7 @@ WebElement d2 = scp.drop2();
 Selectdrop.selectbyvisible(d2, no);
 WebElement D3 = scp.drop3();
 Selectdrop.selectbyvisible(D3, value);
+
 Javascriptss.schll(scp.addcat2());
 scp.addcat1().click();
 Thread.sleep(1000);  ///this is main script i am just calling performing

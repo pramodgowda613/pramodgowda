@@ -42,7 +42,7 @@ public void repconfig() throws IOException
 reprt.attachReporter(rep);
  start = reprt.createTest("nande");//once you declare in global don't mention here only put reference variable(if not null pointer exception will get)
  fil=new FileInputStream(file);
-Properties prop=new Properties();
+ prop=new Properties();
 prop.load(fil);
  url = prop.getProperty("url");
  phot = prop.getProperty("phot");
@@ -86,5 +86,7 @@ public void closeapp()
 }
 
 }
+
+
 
 

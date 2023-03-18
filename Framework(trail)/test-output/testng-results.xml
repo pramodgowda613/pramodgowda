@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-13T15:26:20 IST" name="Default suite" finished-at="2023-03-13T15:26:58 IST" duration-ms="37909">
+  <suite started-at="2023-03-15T23:21:52 IST" name="Default suite" finished-at="2023-03-15T23:22:11 IST" duration-ms="19274">
     <groups>
     </groups>
-    <test started-at="2023-03-13T15:26:20 IST" name="Default test" finished-at="2023-03-13T15:26:58 IST" duration-ms="37909">
+    <test started-at="2023-03-15T23:21:52 IST" name="Default test" finished-at="2023-03-15T23:22:11 IST" duration-ms="19274">
       <class name="Scripts.Scenarioscript">
-        <test-method is-config="true" signature="repconfig()[pri:0, instance:Scripts.Scenarioscript@223aa2f7]" started-at="2023-03-13T15:26:20 IST" name="repconfig" finished-at="2023-03-13T15:26:21 IST" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="repconfig()[pri:0, instance:Scripts.Scenarioscript@223aa2f7]" started-at="2023-03-15T23:21:52 IST" name="repconfig" finished-at="2023-03-15T23:21:52 IST" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repconfig -->
-        <test-method is-config="true" signature="openbrowser()[pri:0, instance:Scripts.Scenarioscript@223aa2f7]" started-at="2023-03-13T15:26:21 IST" name="openbrowser" finished-at="2023-03-13T15:26:23 IST" duration-ms="1952" status="PASS">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:Scripts.Scenarioscript@223aa2f7]" started-at="2023-03-15T23:21:52 IST" name="openbrowser" finished-at="2023-03-15T23:21:55 IST" duration-ms="2644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:Scripts.Scenarioscript@223aa2f7]" started-at="2023-03-13T15:26:23 IST" name="login" finished-at="2023-03-13T15:26:32 IST" duration-ms="9020" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:Scripts.Scenarioscript@223aa2f7]" started-at="2023-03-15T23:21:55 IST" name="login" finished-at="2023-03-15T23:22:04 IST" duration-ms="8920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="script()[pri:0, instance:Scripts.Scenarioscript@223aa2f7]" started-at="2023-03-13T15:26:32 IST" name="script" finished-at="2023-03-13T15:26:38 IST" duration-ms="6194" status="FAIL">
+        <test-method signature="script()[pri:0, instance:Scripts.Scenarioscript@223aa2f7]" started-at="2023-03-15T23:22:04 IST" name="script" finished-at="2023-03-15T23:22:09 IST" duration-ms="5710" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <input type="button" value="Add to cart" class="button-2 product-box-add-to-cart-button" onclick="AjaxCart.addproducttocart_catalog('/addproducttocart/catalog/28/1/1    ');return false;"> is not clickable at point (1196, 10). Other element would receive the click: <p class="content">...</p>
-  (Session info: chrome=111.0.5563.64)
+  (Session info: chrome=111.0.5563.65)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-9FCKI5I', ip: '192.168.184.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+System info: host: 'DESKTOP-9FCKI5I', ip: '192.168.43.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57017}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ff7dfca225b945f166a676f34143a2d5]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62170}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9493e9a03472859ca953d0c64d3cecdd]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="button" value="Add to cart" class="button-2 product-box-add-to-cart-button" onclick="AjaxCart.addproducttocart_catalog('/addproducttocart/catalog/28/1/1    ');return false;"> is not clickable at point (1196, 10). Other element would receive the click: <p class="content">...</p>
-  (Session info: chrome=111.0.5563.64)
+  (Session info: chrome=111.0.5563.65)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-9FCKI5I', ip: '192.168.184.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+System info: host: 'DESKTOP-9FCKI5I', ip: '192.168.43.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57017}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ff7dfca225b945f166a676f34143a2d5
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62170}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9493e9a03472859ca953d0c64d3cecdd
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -57,7 +57,7 @@ at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Delegating
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-at Scripts.Scenarioscript.script(Scenarioscript.java:32)
+at Scripts.Scenarioscript.script(Scenarioscript.java:33)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -92,29 +92,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- script -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:Scripts.Scenarioscript@223aa2f7]" started-at="2023-03-13T15:26:38 IST" name="logout" finished-at="2023-03-13T15:26:58 IST" duration-ms="20117" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method is-config="true" signature="logout()[pri:0, instance:Scripts.Scenarioscript@223aa2f7]" started-at="2023-03-15T23:22:10 IST" name="logout" finished-at="2023-03-15T23:22:11 IST" duration-ms="1105" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='logout']"}
-  (Session info: chrome=111.0.5563.64)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[element click intercepted: Element <a href="/logout" class="ico-logout">...</a> is not clickable at point (1032, 9). Other element would receive the click: <div id="bar-notification" class="bar-notification success" style="display: block; opacity: 0.81466;">...</div>
+  (Session info: chrome=111.0.5563.65)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-9FCKI5I', ip: '192.168.184.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+System info: host: 'DESKTOP-9FCKI5I', ip: '192.168.43.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57017}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ff7dfca225b945f166a676f34143a2d5
-*** Element info: {Using=name, value=logout}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62170}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9493e9a03472859ca953d0c64d3cecdd]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='logout']"}
-  (Session info: chrome=111.0.5563.64)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/logout" class="ico-logout">...</a> is not clickable at point (1032, 9). Other element would receive the click: <div id="bar-notification" class="bar-notification success" style="display: block; opacity: 0.81466;">...</div>
+  (Session info: chrome=111.0.5563.65)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-9FCKI5I', ip: '192.168.184.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+System info: host: 'DESKTOP-9FCKI5I', ip: '192.168.43.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57017}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ff7dfca225b945f166a676f34143a2d5
-*** Element info: {Using=name, value=logout}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62170}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9493e9a03472859ca953d0c64d3cecdd
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -126,13 +122,13 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-at org.openqa.selenium.By$ByName.findElement(By.java:284)
-at org.openqa.selenium.support.ByIdOrName.findElement(ByIdOrName.java:50)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
 at Genericscripts.Base_class.logout(Base_class.java:77)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -170,11 +166,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeapp()[pri:0, instance:Scripts.Scenarioscript@223aa2f7]" started-at="2023-03-13T15:26:58 IST" name="closeapp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678701418729" status="SKIP">
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:Scripts.Scenarioscript@223aa2f7]" started-at="2023-03-15T23:22:11 IST" name="closeapp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1678902731503" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->

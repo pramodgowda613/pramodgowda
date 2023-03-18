@@ -18,6 +18,7 @@ public class Pomlogin extends Base_pom {
 	@FindBy(xpath = "//input[@value='Log in']")
 	private WebElement button;
 
+	@FindBy(xpath = "//a[text()='Log out']")
 	private WebElement logout;
 
 	 public Pomlogin(WebDriver driver)  

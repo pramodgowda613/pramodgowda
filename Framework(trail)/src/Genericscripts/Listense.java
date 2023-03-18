@@ -19,7 +19,7 @@ public class Listense extends Base_class implements ITestListener  {
 	@Override
 	public void onTestFailure(ITestResult result) {
 		System.out.println("failed check"+result.getName());
-		Screnshot.photo(driver, result);
+		Screnshot.photo(driver,result);
 	}
 
 	@Override
